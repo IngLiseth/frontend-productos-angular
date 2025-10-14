@@ -1,0 +1,42 @@
+.container {
+  max-width: 800px;
+  margin: 40px auto;
+  text-align: center;
+  font-family: "Segoe UI", sans-serif;
+}
+
+h1 {
+  color: #222;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background: #fff;
+}
+
+th {
+  background: #0078d7;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  padding: 8px;
+}
+
+td {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+tr:nth-child(even) {
+  background: #f7f7f7;
+}
+
+tr:hover {
+  background: #e8f3ff;
+}

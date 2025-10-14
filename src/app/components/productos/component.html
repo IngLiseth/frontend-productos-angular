@@ -3,7 +3,7 @@
 
   @if (productos.isLoading()) {
     <p>Cargando productos...</p>
-  } @else if (productos.isError()) {
+  } @else if (productos.error()) {
     <p>Error al cargar los productos 😞</p>
   } @else {
     <table border="1" cellspacing="0" cellpadding="8">
