@@ -6,7 +6,7 @@ import { Injectable, resource } from '@angular/core';
 export class ProductosService {
   productos = resource({
     loader: () => {
-      return fetch('http://localhost:8080/api/productos')
+      return fetch('https://api-productos-springboot-uhyz.onrender.com/api/productos')
         .then(res => {
           if (!res.ok) {
             throw new Error('Error al obtener productos');
